@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #B0A8B9;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #4F4557;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #9A86A4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgb(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form {
+    margin: 30px;
+}
+
+.form-group {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical;
+}
+
+.user-data {
+    height: 40px;
+}
+
+.item {
+    box-shadow: rgb(179, 180, 181, 0.5) 3px 3px 6px 0px inset, rgba(255, 254, 254, 0.5) -3px -3px 6px 1px inset;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4B4453;
+    color: #fff;
+    cursor: pointer;
+    width: 100px;
+    border: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    font-size: 1rem;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #D1CADD;
+    color: #4F4557;
+}
+
+#messages {
+    margin-top: 30px;
+    margin-left: 300px;
+    background-color: #FDF7FF;
+    padding: 20px;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.message {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.message strong {
+    font-size: 18px;
+    color: #6D5D6E;
+}
+
+.message a {
+    color: #6D5D6E;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.message a:hover {
+    color: #6D5D6E;
+}
+
+.delete-button {
+    margin-left: 500px;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.delete-button img {
+    width: 30px;
+    height: 30px;
+}
+
+.delete-button:hover {
+    opacity: 0.7;
+}
+
+
+@media (max-width: 900px) {
+    .container {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #messages {
+        margin: 20px 20px 20px 0;
+        width: 90%;
+    }
+
+    .form-group input[type="submit"] {
+        width: 100%;
+    }
+}
