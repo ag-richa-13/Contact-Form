@@ -1,39 +1,25 @@
 # Contact Form
 
-This is a unique and creative form that collects user information (name, email, and message) and stores it in a Firebase database without refreshing the webpage. The submitted data is then displayed dynamically on the webpage.
+This is a simple contact form webpage that allows users to submit their name, email, and a message. The form data is stored in a Firebase Realtime Database.
 
-## Features
+## How to Use
 
-- Beautiful and modern design with attention to detail
-- Real-time data storage using Firebase Realtime Database
-- Seamless display of submitted messages without page refresh
+1. Clone or download the code to your local machine.
+2. Open the `index.html` file in a web browser.
+3. Fill in the required fields (name, email, and message) and click the "Submit" button.
+4. The submitted messages will be displayed in the "Messages" section below the form.
+5. To delete a message, click the delete button next to it.
 
-## Technologies Used
+## Dependencies
 
-- HTML
-- CSS
-- JavaScript
-- Firebase Realtime Database
+The webpage uses the following dependencies:
 
-## Setup and Usage
+- [Firebase](https://firebase.google.com/) - Firebase JavaScript SDK is included to interact with the Firebase Realtime Database.
 
-1. Clone the repository or download the code files.
-2. Replace the Firebase configuration placeholders in the HTML file with your own Firebase project credentials.
-3. Open the HTML file in a web browser or deploy it on a web server.
-4. Fill in the form fields with your name, email, and message.
-5. Click the "Submit" button to save the data to the Firebase database.
-6. The submitted message will be displayed on the webpage in real-time.
+## Firebase Configuration
 
-## Customization
+To use your own Firebase project, replace the Firebase configuration in the code with your own. You can find your project's configuration details in the Firebase console.
 
-- You can modify the CSS styles to match your desired design aesthetic.
-- Make sure to update the Firebase configuration in the JavaScript code with your own project credentials.
+---
 
-## Credits
-
-This form was created using HTML, CSS, JavaScript, and Firebase Realtime Database integration. It was developed by Richa Agrawal.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
+Save the above text as a README.md file in the same directory as the contact form code.
