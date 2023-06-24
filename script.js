@@ -34,6 +34,10 @@ function submitForm(e) {
     message: message,
   });
 
+  // Show success message
+  var successMessage = document.getElementById("successMessage");
+  successMessage.style.display = "block";
+
   // Clear form fields
   document.getElementById("name").value = "";
   document.getElementById("email").value = "";
