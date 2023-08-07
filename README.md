@@ -20,6 +20,3 @@ The webpage uses the following dependencies:
 
 To use your own Firebase project, replace the Firebase configuration in the code with your own. You can find your project's configuration details in the Firebase console.
 
----
-
-Save the above text as a README.md file in the same directory as the contact form code.
